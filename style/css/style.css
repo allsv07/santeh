@@ -6,6 +6,8 @@ html { box-sizing: border-box; }
 
 .active { background: #E7E7E7; color: #262626; }
 
+.error-input { border: 2px solid #F38585 !important; }
+
 .nav-item { padding-left: 15px; padding-right: 15px; }
 
 .nav-link { position: relative; font-family: Arial !important; font-size: 16px !important; font-weight: 500 !important; color: #262626 !important; }
@@ -80,9 +82,9 @@ html { box-sizing: border-box; }
 
 .shema-raboty h3 { text-transform: uppercase; color: #262626; text-align: center; font-family: Roboto; font-weight: 500; font-size: 24px; }
 
-.shema-raboty .b_shema { margin-top: 90px; border: 1px solid red; }
+.shema-raboty .b_shema { margin-top: 90px; }
 
-.shema-raboty .block-step { border: 5px solid #4db7ec; margin-bottom: 15px; margin-right: 5px; margin-left: 5px; }
+.shema-raboty .block-step { border: 5px solid #4db7ec; margin-bottom: 15px; padding: 5px; }
 
 .shema-raboty .block-step .step { text-align: center; }
 
@@ -117,6 +119,10 @@ html { box-sizing: border-box; }
 .zayavka .block-callback .block-forma .btn_callback { display: block; margin-left: auto; margin-right: auto; margin-top: 50px; padding: 13px 40px; border: 3px solid #fff; background: none; font-family: Roboto; font-size: 24px; font-weight: 600; color: #fff; transition: all 0.5s ease; }
 
 .zayavka .block-callback .block-forma .btn_callback:hover { color: #4db7ec; background: #fff; }
+
+.zayavka .block-success { display: none; }
+
+.zayavka .block-success h3 { text-align: center; font-size: 24px; }
 
 .block-footer { margin-top: 90px; margin-bottom: 30px; }
 

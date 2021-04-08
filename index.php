@@ -24,15 +24,13 @@
             <div class="row menu">
                 <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light" id="navbar--menu">
                     <!-- <a class="navbar-brand" href="#">Панель навигации с текстом</a> -->
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-                        aria-controls="navbarText" aria-expanded="false" aria-label="Переключатель навигации">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Переключатель навигации">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarText">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="#header--top">Главная <span
-                                        class="sr-only">(текущая)</span></a>
+                                <a class="nav-link" href="#header--top">Главная <span class="sr-only">(текущая)</span></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#assortment">Ассортимент</a>
@@ -66,8 +64,7 @@
             </div>
 
             <div class="row">
-                <div class="block-banner"
-                    style="background-image: url(images/58432249.png); background-repeat: no-repeat; background-position: center center; background-size: cover;">
+                <div class="block-banner" style="background-image: url(images/58432249.png); background-repeat: no-repeat; background-position: center center; background-size: cover;">
                     <div class="block-banner-info">
                         <p class="big">МЫ ПОСТАВЛЯЕМ</p>
                         <p class="big">ОРИГИНАЛЬНУЮ САНТЕХНИКУ</p>
@@ -189,8 +186,7 @@
                                         <div class="name">
                                             <span>Трубы канализационные и фитинги к ним</span>
                                         </div>
-                                        <img src="images/png/kanalyzacya.png"
-                                            alt="Трубы канализационные и фитинги к ним">
+                                        <img src="images/png/kanalyzacya.png" alt="Трубы канализационные и фитинги к ним">
                                     </div>
                                 </div>
 
@@ -252,51 +248,59 @@
             <div class="container">
                 <h3>Схема работы</h3>
                 <div class="row b_shema">
-                    <div class="col-md-3 block-step">
-                        <div class="step">
-                            <strong>Шаг 1</strong>
-                        </div>
-                        <div class="description">
-                            <p>Звоните по телефонам</p>
-                        </div>
-                        <div class="phone-block-shema">
-                            <a href="tel: +375(33) 999-99-99">+375(33) 999-99-99</a>
-                            <a href="tel: +375(29) 777-77-77">+375(29) 777-77-77</a>
-                        </div>
-                        <div class="description">
-                            <p>Или заполните форму ниже</p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 block-step">
-                        <div class="step">
-                            <strong>Шаг 2</strong>
-                        </div>
-                        <div class="description-only">
-                            <p>Мы свяжемся с вами и уточним все детали</p>
+                    <div class="sol-sm-12 col-md-6 col-lg-3 block-step--div">
+                        <div class="block-step">
+                            <div class="step">
+                                <strong>Шаг 1</strong>
+                            </div>
+                            <div class="description">
+                                <p>Звоните по телефонам</p>
+                            </div>
+                            <div class="phone-block-shema">
+                                <a href="tel: +375(33) 999-99-99">+375(33) 999-99-99</a>
+                                <a href="tel: +375(29) 777-77-77">+375(29) 777-77-77</a>
+                            </div>
+                            <div class="description">
+                                <p>Или заполните форму ниже</p>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="col-md-3 block-step">
-                        <div class="step">
-                            <strong>Шаг 3</strong>
-                        </div>
-                        <div class="description">
-                            <p>Доставка или самывывоз</p>
-                        </div>
-                        <div class="step-adress">
-                            <p>г. Витебск</p>
-                            <p>ул. С.Панковой</p>
-                            <p>п 258</p>
+                    <div class="sol-sm-12 col-md-6 col-lg-3 block-step--div">
+                        <div class="block-step">
+                            <div class="step">
+                                <strong>Шаг 2</strong>
+                            </div>
+                            <div class="description-only">
+                                <p>Мы свяжемся с вами и уточним все детали</p>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="col-md-3 block-step">
-                        <div class="step">
-                            <strong>Шаг 4</strong>
+                    <div class="sol-sm-12 col-md-6 col-lg-3 block-step--div">
+                        <div class="block-step">
+                            <div class="step">
+                                <strong>Шаг 3</strong>
+                            </div>
+                            <div class="description">
+                                <p>Доставка или самывывоз</p>
+                            </div>
+                            <div class="step-adress">
+                                <p>г. Витебск</p>
+                                <p>ул. С.Панковой</p>
+                                <p>п 258</p>
+                            </div>
                         </div>
-                        <div class="description-only">
-                            <p>Оплата</p>
+                    </div>
+
+                    <div class="sol-sm-12 col-md-6 col-lg-3 block-step--div">
+                        <div class="block-step">
+                            <div class="step">
+                                <strong>Шаг 4</strong>
+                            </div>
+                            <div class="description-only">
+                                <p>Оплата</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -307,15 +311,16 @@
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12 block-callback">
                     <h3>узнайте стоимость и получите информацию от специалиста</h3>
-                    <form action="" method="POST" id="form_callback" class="form_callback">
+                    <div class="block-success">
+                        <h3>Ваша заявка отправленна</h3>
+                    </div>
+                    <form action="" id="form_callback" class="form_callback">
                         <div class="block-forma">
                             <div class="block-phone-name">
-                                <input type="text" id="name-callback" class="name-callback" name="name-callback"
-                                    placeholder="Введите ваше имя">
-                                <input type="text" id="phone-callback" class="phone-callback" name="phone-callback"
-                                    placeholder="Введите ваш телефон">
+                                <input type="text" id="name-callback" class="name-callback" name="name-callback" placeholder="Введите ваше имя">
+                                <input type="text" id="phone-callback" class="phone-callback" name="phone-callback" placeholder="Введите ваш телефон">
                             </div>
-                            <input type="submit" id="btn_callback" class="btn_callback" name="btn_callback" value="Заказать звонок">
+                            <input type="button" id="btn_callback" class="btn_callback" name="btn_callback" value="Заказать звонок">
                         </div>
                     </form>
                 </div>
@@ -369,6 +374,8 @@
     <script src="libs/bootstrap/js/bootstrap.js"></script>
     <!-- main js -->
     <script src="js/script.js"></script>
+    <!-- maskedinput -->
+    <script src="libs/jquery.maskedinput/src/jquery.maskedinput.js"></script>
 </body>
 
 </html>
