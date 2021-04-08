@@ -53,18 +53,20 @@ $("#btn_callback").click(function() {
     
     if (name.val() != '' && phone.val() != '') {
         $("#btn_callback").prop("disabled", true);
-        $.ajax({
-            type: 'POST',
-            url: 'ajax/validate.php',
-            data: $("#form_callback").serialize(),
-            success: function(data) {
-                console.log(data);
-                if (data == 'success') {
-                    $("#form_callback").fadeOut(200);
-                    $(".block-success").fadeIn(600);
-                }
-            }        
-        });
+        $("#form_callback").fadeOut(200);
+        $(".block-success").fadeIn(600);
+        // $.ajax({
+        //     type: 'POST',
+        //     url: 'ajax/validate.php',
+        //     data: $("#form_callback").serialize(),
+        //     success: function(data) {
+        //         console.log(data);
+        //         if (data == 'success') {
+        //             $("#form_callback").fadeOut(200);
+        //             $(".block-success").fadeIn(600);
+        //         }
+        //     }        
+        // });
     }
 
 });

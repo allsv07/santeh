@@ -40,6 +40,9 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#shema-raboty">Схема работы</a>
                             </li>
+                            <li class="nav-item">
+                                <a href="#callback" class="nav-link">Заказать звонок</a>
+                            </li>
                         </ul>
                         <!-- <span class="navbar-text">
                         Текст на панели навигации со встроенным элементом
@@ -255,66 +258,69 @@
                     <div class="sol-sm-12 col-md-6 col-lg-3 block-step--div">
                         <div class="block-step">
                             <div class="step">
-                            <strong>Шаг 1</strong>
-                        </div>
-                        <div class="description">
-                            <p>Звоните по телефонам</p>
-                        </div>
-                        <div class="phone-block-shema">
-                            <a href="tel: +375(33) 999-99-99">+375(33) 999-99-99</a>
-                            <a href="tel: +375(29) 777-77-77">+375(29) 777-77-77</a>
-                        </div>
-                        <div class="description">
-                            <p>Или заполните форму ниже</p>
-                        </div>
-                        </div>
-                    </div>
-
-                    <div class="sol-sm-12 col-md-6 col-lg-3 block-step--div">
-                        <div class="block-step">
-                            <div class="step">
-                            <strong>Шаг 2</strong>
-                        </div>
-                        <div class="description-only">
-                            <p>Мы свяжемся с вами и уточним все детали</p>
-                        </div>
+                                <strong>Шаг 1</strong>
+                            </div>
+                            <div class="description">
+                                <p>Звоните по телефонам</p>
+                            </div>
+                            <div class="phone-block-shema">
+                                <a href="tel: +375(33) 999-99-99">+375(33) 999-99-99</a>
+                                <a href="tel: +375(29) 777-77-77">+375(29) 777-77-77</a>
+                            </div>
+                            <div class="description">
+                                <p>Или заполните форму ниже</p>
+                            </div>
                         </div>
                     </div>
 
                     <div class="sol-sm-12 col-md-6 col-lg-3 block-step--div">
                         <div class="block-step">
                             <div class="step">
-                            <strong>Шаг 3</strong>
-                        </div>
-                        <div class="description">
-                            <p>Доставка или самывывоз</p>
-                        </div>
-                        <div class="step-adress">
-                            <p>г. Витебск</p>
-                            <p>ул. С.Панковой</p>
-                            <p>п 258</p>
-                        </div>
+                                <strong>Шаг 2</strong>
+                            </div>
+                            <div class="description-only">
+                                <p>Мы свяжемся с вами и уточним все детали</p>
+                            </div>
                         </div>
                     </div>
 
                     <div class="sol-sm-12 col-md-6 col-lg-3 block-step--div">
                         <div class="block-step">
                             <div class="step">
-                            <strong>Шаг 4</strong>
+                                <strong>Шаг 3</strong>
+                            </div>
+                            <div class="description">
+                                <p>Доставка или самывывоз</p>
+                            </div>
+                            <div class="step-adress">
+                                <p>г. Витебск</p>
+                                <p>ул. С.Панковой</p>
+                                <p>п 258</p>
+                            </div>
                         </div>
-                        <div class="description-only">
-                            <p>Оплата</p>
-                        </div>
+                    </div>
+
+                    <div class="sol-sm-12 col-md-6 col-lg-3 block-step--div">
+                        <div class="block-step">
+                            <div class="step">
+                                <strong>Шаг 4</strong>
+                            </div>
+                            <div class="description-only">
+                                <p>Оплата</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="zayavka">
+        <div id="callback" class="zayavka">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12 block-callback">
                     <h3>узнайте стоимость и получите информацию от специалиста</h3>
+                    <div class="block-success">
+                        <h3>Ваша заявка отправленна</h3>
+                    </div>
                     <form action="" id="form_callback" class="form_callback">
                         <div class="block-forma">
                             <div class="block-phone-name">
@@ -323,7 +329,8 @@
                                 <input type="text" id="phone-callback" class="phone-callback" name="phone-callback"
                                     placeholder="Введите ваш телефон">
                             </div>
-                            <input type="button" id="btn_callback" class="btn_callback" name="btn_callback" value="Заказать звонок">
+                            <input type="button" id="btn_callback" class="btn_callback" name="btn_callback"
+                                value="Заказать звонок">
                         </div>
                     </form>
                 </div>
@@ -377,6 +384,8 @@
     <script src="libs/bootstrap/js/bootstrap.js"></script>
     <!-- main js -->
     <script src="js/script.js"></script>
+    <!-- maskedinput -->
+    <script src="libs/jquery.maskedinput/src/jquery.maskedinput.js"></script>
 </body>
 
 </html>

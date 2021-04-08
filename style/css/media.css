@@ -29,6 +29,8 @@
 @media screen and (max-width: 992px) { .block-footer-logo .logo a { display: flex; flex-direction: column; }
   .block-footer-logo .logo img { width: 80px; height: 80px; }
   .block-footer-logo .logo h1 { font-size: 20px; }
+  .nav-link { font-size: 20px !important; text-align: center; }
+  .nav-link::before { top: 35px !important; }
   .zayavka .block-callback .block-forma .block-phone-name { display: flex; flex-direction: column; }
   .zayavka .block-callback .block-forma .block-phone-name .name-callback, .zayavka .block-callback .block-forma .block-phone-name .phone-callback { width: 100%; margin-top: 10px; }
   .zayavka .block-callback .block-forma .btn_callback { padding: 10px 30px; border: 3px solid #fff; font-size: 20px; font-weight: 500; } }

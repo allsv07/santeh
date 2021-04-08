@@ -38,6 +38,9 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#shema-raboty">Схема работы</a>
                             </li>
+                            <li class="nav-item">
+                                <a href="#callback" class="nav-link">Заказать звонок</a>
+                            </li>
                         </ul>
                         <!-- <span class="navbar-text">
                         Текст на панели навигации со встроенным элементом
@@ -307,7 +310,7 @@
             </div>
         </div>
 
-        <div class="zayavka">
+        <div id="callback" class="zayavka">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12 block-callback">
                     <h3>узнайте стоимость и получите информацию от специалиста</h3>
